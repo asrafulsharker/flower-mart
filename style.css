@@ -41,10 +41,61 @@ button {
 .text-color-highlight{
     color: #E55473 !important;
 }
+a{
+    text-decoration: none;
+    color: #FFF;
+}
 
+a:hover{
+    color: #E55473;
+    font-weight: 700;
+    transition: .7s;
+}
+
+/* nav section start  */
+
+nav{
+    background-color: #111010;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+.nav-container{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo{
+    font-size: 35px;
+    color: #FFF;
+    font-weight: 700;
+}
+.logo span{
+    color: #E55473;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li{
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+menu li a{
+    color: white;
+}
+/* nav section end  */
 /* hero section start  */
 .hero-section {
     background: rgba(229, 84, 115, 0.10);
+    padding-top: 60px;
 }
 
 .hero-section-container {

@@ -38,6 +38,10 @@ button {
     width: 650px;
 }
 
+.text-color-highlight{
+    color: #E55473 !important;
+}
+
 /* hero section start  */
 .hero-section {
     background: rgba(229, 84, 115, 0.10);
@@ -174,3 +178,111 @@ padding: 45px 0px;
 }
 
 /* hot deal section start  */
+.hot-deal{
+background: rgba(229, 84, 115, 0.05);
+margin: 80px 0px;
+}
+
+.hot-deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot-deal-left-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hot-deal-right-div img{
+    margin-left: 40px;
+}
+
+.instragram-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instragram-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.instragram-img img{
+    margin: 0px 20px;
+
+}
+
+.latest-deal{
+    margin: 50px 0px;
+    
+    
+}
+
+.latest-deal-container{
+    background-image: url("./image/Rectangle\ 9.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0% 15%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.latest-deal-input input{
+    border-radius: 8px;
+background: #FFF;
+width: 100%;
+margin-right: 20px;
+border: none;
+padding: 0px 20px;
+}
+
+.latest-deal-input{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* footer start  */
+
+
+footer{
+    background-color:  #111010;
+
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 0px;
+}
+
+.footer-title{
+color: #FFF;
+font-size: 48px;
+font-weight: 800;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
